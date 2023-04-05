@@ -4,27 +4,27 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'learning is more important'
             }
         }
         stage('Bulid') {
             steps {
-                echo 'Bulid failed'
+                echo 'Bulid'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Depolyment in progress'
+                echo 'Depoly'
             }
         }
         stage('Test') {
             steps {
-                echo 'Test Completed'
+                echo 'Test'
             }
         }
         stage('Delivery') {
             steps {
-                echo 'Delivery in progress'
+                echo 'Delivery'
             }
         }
     }
